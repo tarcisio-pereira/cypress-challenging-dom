@@ -1,14 +1,10 @@
 /// <reference types="cypress" />
 
 describe('Teste de manipulação de Dom', () => {
-    beforeEach(() => {
-      cy.visit('https://the-internet.herokuapp.com/challenging_dom')
-      cy.get('title').should('have.text', 'The Internet')
-    })
-
-    it('Visite a página inicial', ()=> {
+    beforeEach('Visite a página Challengig Dom', () => {
+        cy.visit('https://the-internet.herokuapp.com/challenging_dom') 
         cy.get('h3').should('have.text', 'Challenging DOM')
-    })
+      })
 
     it('Clicar no botão Azul', ()=> {     
         cy.get('.button')

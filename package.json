@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tarcisio-pereira/cypress-challenging-dom.git"
+    "cy:open": "cypress open",
+    "test": "cypress run"
   },
   "author": "Tarcísio Pereira",
   "license": "ISC",
