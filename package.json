@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tarcisio-pereira/cypress-challenging-dom#readme",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.0",
     "cypress": "^13.3.2"
   }
 }
